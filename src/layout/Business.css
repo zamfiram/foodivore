@@ -1,3 +1,7 @@
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caudex:ital@1&family=Molengo&display=swap');
+
+
 .Business {
     display: flex;
     flex-direction: column;
@@ -13,8 +17,10 @@
   
   .Business h2 {
     margin-bottom: .5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-family: 'Caudex', serif;
+    color: #420C14;
+    font-size: 1.3rem;
+    font-weight: 800;
   }
   
   .Business-information {
@@ -25,13 +31,14 @@
   .Business-information p {
     font-size: .88rem;
     font-weight: 300;
-    line-height: 1rem;
+    line-height: 1.5rem;
   }
   
   .Business-address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Caudex', serif;
   }
   
   .Business-reviews {
@@ -42,7 +49,7 @@
   }
   
   .Business-reviews h3 {
-    color: #CCA353;
+    color: #98994F;
     font-weight: 600;
   }
   
